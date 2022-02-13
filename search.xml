@@ -8,7 +8,7 @@
       <link href="/2022/02/10/immunology-2/"/>
       <url>/2022/02/10/immunology-2/</url>
       
-        <content type="html"><![CDATA[<p>病原相關分子模式(Pathogen-associated molecular patterns, PAMP)是和病原相關的小分子序列(可以當作抗原)，能被模式識別受體（pattern recognition receptors, PRR）識別。<br>識別受體包含：TLR、NLR、RLR等，本篇文會著重介紹TLR。</p><h1 id="類鐸受體-TLR"><a href="#類鐸受體-TLR" class="headerlink" title="類鐸受體(TLR)"></a>類鐸受體(TLR)</h1><p>類鐸受體(Toll-like receptor,TLR)，是人類重要的PRRs，和果蠅的TLR有同源性。</p><h2 id="活化途徑"><a href="#活化途徑" class="headerlink" title="活化途徑"></a>活化途徑</h2><p>TLR接觸到PAMPs後，由RTK(受體酪胺酸激酶)傳訊至核，啟動特定基因轉錄，表現發炎相關物質(如IL介白素、IFR-γ干擾素)或第一型干擾素(IFN-α&#x2F;β)。</p><h2 id="種類"><a href="#種類" class="headerlink" title="種類"></a>種類</h2><table><thead><tr><th></th><th>PAMPs(病原分子)</th><th>PRRs(病原辨識受體)</th></tr></thead><tbody><tr><td>胞外</td><td>肽聚醣、LPS(內毒素，G(-)專有)、鞭毛等</td><td>TLR1&#x2F;2&#x2F;6&#x2F;4&#x2F;5&#x2F;11</td></tr><tr><td>胞內</td><td>病毒核酸(單雙股之DNA&#x2F;RNA)</td><td>TLR3&#x2F;7&#x2F;8&#x2F;9</td></tr></tbody></table><p><img src="https://i.imgur.com/6cJVho9.jpg"></p><h2 id="重要的TLR4"><a href="#重要的TLR4" class="headerlink" title="重要的TLR4"></a>重要的TLR4</h2><p>TRL4是非常的別的TLR，受LPS或其他內源分子活化後，形成二聚體(dimer)，會同時活化兩種途徑(NF-κB、IRF)。<br>NF-κB活化會釋放引起發炎的細胞激素，而IRF活化會分泌第一型干擾素(IFN-α&#x2F;β)。<br><img src="https://i.imgur.com/Pfr910O.jpg"></p><h2 id="CpG模體和TLR9"><a href="#CpG模體和TLR9" class="headerlink" title="CpG模體和TLR9"></a>CpG模體和TLR9</h2><p>上圖可見：CpG DNA會活化endosome裡的TLR9。<br>CpG模體，指DNA的胞嘧啶、鳥糞嘌呤及正磷酸二酯體結合的DNA序列。因其在多數哺乳類中無甲基化，而在病毒或細菌中無甲基化，因此可以簡略區分外來病原。</p><div class="note warning flat"><p>Q:為甚麼不分仔細點？<br>A:病原同時在擴大感染，越快越好。<br>(<strong>這邊就能看出免疫必然有取捨，要快就不精。</strong>)</p></div><p>活化：CpG DNA可和TLR9以2:2形成二聚物，C端互相靠近，TLR二聚結構更穩定，傳遞訊息。<br>抑制：agonistic CpG-DNA以1:1形成馬蹄形結構，當agonistic CpG-DNA和TLR9結合後，TLR9和外來病原的CpG DNA無法結合，機能受阻。<br><img src="https://i.imgur.com/mmzTG9y.jpg"></p><h1 id="NLR-NOD-like-receptor"><a href="#NLR-NOD-like-receptor" class="headerlink" title="NLR(NOD-like receptor)"></a>NLR(NOD-like receptor)</h1><h1 id="RLR-RIG-I-like-receptor"><a href="#RLR-RIG-I-like-receptor" class="headerlink" title="RLR(RIG-I-like receptor)"></a>RLR(RIG-I-like receptor)</h1><h1 id="cGAS-x2F-STING"><a href="#cGAS-x2F-STING" class="headerlink" title="cGAS&#x2F;STING"></a>cGAS&#x2F;STING</h1><h1 id=""><a href="#" class="headerlink" title=""></a></h1><p>關於後三個識別受體，筆者目前對它們認識不多，希望於畢業後再好好研究(尤其是cGAS&#x2F;STING，目前唯一可以拿來做疫苗或藥物的sensor)，再將內容補上！</p><div class="note modern"><p>2022&#x2F;02&#x2F;10 我也滿好奇TLR和TOLL recepter究竟是外型相近還是傳遞路徑也很像，但目前還沒找到解答。</p></div><p>Claire2004(2022&#x2F;02&#x2F;10)</p>]]></content>
+        <content type="html"><![CDATA[<p>病原相關分子模式(Pathogen-associated molecular patterns, PAMP)是和病原相關的小分子序列(可以當作抗原)，這些小分子雖來自不同病原體，卻有共通性(也就是模式相同的意思)，能被模式識別受體（pattern recognition receptors, PRR）識別。<br>PRRs包含：TLR、NLR、RLR等，本篇先整理TLR的部分。</p><div class="note warning flat"><p>Q:為甚麼不分仔細點？<br>A:病原體同時在擴大感染，時間也是關鍵，早點攔截下來才是王道。<br>(<strong>這邊就能看出免疫必然有取捨，要快就不精。</strong>)</p></div><div class="note info flat"><p>除了PAMPs之外，PRRs也可識別損傷相關分子模式(Damage-associated molecular patterns，DAMPs)，如尿酸結晶(MSU)、膽固醇結晶等。</p></div><h1 id="類鐸受體-TLR"><a href="#類鐸受體-TLR" class="headerlink" title="類鐸受體(TLR)"></a>類鐸受體(TLR)</h1><p>1985年，科學家在果蠅確認一段基因和幼蟲腹部的發育有關，並將它命名為Toll(鐸)，1996年，Toll被發現在成體果蠅中控制抗真菌胜肽drosomycin的表現，和先天免疫有關。</p><p>類鐸受體(Toll-like receptor,TLR)，是人類重要的PRRs，是巨噬細胞、樹突細胞(DC)、上皮細胞等上的辨識受體，和果蠅的Toll receptor有同源性。</p><h2 id="活化途徑"><a href="#活化途徑" class="headerlink" title="活化途徑"></a>活化途徑</h2><p>TLR和ligand結合時會形成二聚體，活化後傳遞訊號。<br>若兩個二聚體由同一種TLR組成，則稱為「同源」；若兩個二聚體由不同TLR組成，則稱為「異源」。<br><img src="https://i.imgur.com/1ylFE7q.png"></p><p>TLR接觸到PAMPs後，活化傳訊途徑(NF-κB&#x2F;IRF)至核，啟動特定基因轉錄，表現發炎相關物質(如IL-1β、IL-6、TNF-α等)或第一型干擾素(IFN-α&#x2F;β)。<br><img src="https://i.imgur.com/UDnXDGb.jpg"></p><div class="note warning flat"><p>Q：為甚麼兩個二聚體能夠結合在一起？<br>A：利用脂筏的協助</p></div><p><img src="https://i.imgur.com/QHJ2L78.jpg"></p><h2 id="種類"><a href="#種類" class="headerlink" title="種類"></a>種類</h2><table><thead><tr><th></th><th>PAMPs(病原分子)</th><th>PRRs(病原辨識受體)</th></tr></thead><tbody><tr><td>胞外</td><td>肽聚醣、LPS(內毒素，G(-)專有)、鞭毛等</td><td>TLR1&#x2F;2&#x2F;6&#x2F;4&#x2F;5&#x2F;11</td></tr><tr><td>胞內</td><td>病毒核酸(單雙股之DNA&#x2F;RNA)</td><td>TLR3&#x2F;7&#x2F;8&#x2F;9</td></tr></tbody></table><p><img src="https://i.imgur.com/6cJVho9.jpg"><br>TLR4 → TLR4組成的二聚體<br>TLR1&#x2F;2 → TLR1和TLR2組成的二聚體</p><h2 id="重要的TLR4"><a href="#重要的TLR4" class="headerlink" title="重要的TLR4"></a>重要的TLR4</h2><p>TRL4是非常的別的TLR，受LPS(G(-)細菌的脂多醣，和敗血症有關)或其他內源分子活化後，形成二聚體(dimer)，會同時活化兩種途徑(NF-κB、IRF)。<br>NF-κB活化會釋放引起發炎的細胞激素，而IRF活化會分泌第一型干擾素(IFN-α&#x2F;β)。<br><img src="https://i.imgur.com/Pfr910O.jpg"></p><h1 id="NLR-NOD-like-receptor"><a href="#NLR-NOD-like-receptor" class="headerlink" title="NLR(NOD-like receptor)"></a>NLR(NOD-like receptor)</h1><h1 id="RLR-RIG-I-like-receptor"><a href="#RLR-RIG-I-like-receptor" class="headerlink" title="RLR(RIG-I-like receptor)"></a>RLR(RIG-I-like receptor)</h1><h1 id="cGAS-x2F-STING"><a href="#cGAS-x2F-STING" class="headerlink" title="cGAS&#x2F;STING"></a>cGAS&#x2F;STING</h1><p>關於後三個識別受體，筆者目前對它們認識不多，希望於畢業後再好好研究(尤其是cGAS&#x2F;STING，目前唯一可以拿來做疫苗或藥物的sensor)，再將內容補上！</p><div class="note modern"><p>2022&#x2F;02&#x2F;10 我也滿好奇TLR和TOLL recepter究竟是外型相近還是傳遞路徑也很像，但目前還沒找到解答。<br>2022&#x2F;02&#x2F;11 胞內體TLR能辨識病毒核酸，像是dsRNA人類沒有，所以會出現一定是病毒帶來的，但要怎麼區分人體本身和病毒ssRNA呢？</p></div><p>Claire2004(2022&#x2F;02&#x2F;10)</p>]]></content>
       
       
       <categories>
@@ -20,11 +20,11 @@
       
         <tags>
             
+            <tag> Education </tag>
+            
             <tag> Immunology </tag>
             
             <tag> Biology </tag>
-            
-            <tag> Education </tag>
             
         </tags>
       
@@ -37,7 +37,7 @@
       <link href="/2022/02/10/immunology-1/"/>
       <url>/2022/02/10/immunology-1/</url>
       
-        <content type="html"><![CDATA[<p>先天性免疫，又稱非特異性免疫，是免疫系統非專一性的防禦，雖然不具記憶性(後天性免疫有記憶細胞)，但能在面對抗原時，有更快速的反應。</p><h1 id="第一道防線-天然屏障"><a href="#第一道防線-天然屏障" class="headerlink" title="第一道防線(天然屏障)"></a>第一道防線(天然屏障)</h1><ol><li>物理性：皮膚角質層、黏膜</li><li>化學性：溶菌酶(可破壞細胞壁，口水、眼淚中都有)、抗體IgA(存在黏膜組織中，初乳含量多)脂肪酸、乳酸、抗微生物肽(AMPs)</li><li>生物性：共生菌叢(競爭領地等)</li></ol><h2 id="防禦素"><a href="#防禦素" class="headerlink" title="防禦素"></a>防禦素</h2><p>防禦素(defensin)屬AMP，由於蛋白質電性相吸，拉扯細胞膜造成細菌的細胞膜穿孔。<br><img src="https://i.imgur.com/wZ2Doc3.jpg"></p><h2 id="黏膜"><a href="#黏膜" class="headerlink" title="黏膜"></a>黏膜</h2><p>黏膜和皮膚最大的差別是，皮膚較像是在外面不動的防護罩(角質層)，而黏膜傾向動態變化、具有通透性。<br>黏膜的細胞表面有充滿醣蛋白的黏液，除了可以黏住病原(減緩移動速度等)，也能黏住IgA dimer，讓抗體發揮中和功能。</p><h2 id="抗體IgA"><a href="#抗體IgA" class="headerlink" title="抗體IgA"></a>抗體IgA</h2><p>抗體IgA除了存在在各個黏膜組織中，初乳也富含大量IgA，是協助嬰兒抵抗的外來物的一大助力。嬰兒喝下母乳後，整條消化管的黏膜都可以將IgA黏住，將病原體擋在第一層防線。(母乳也會經過咽，順便保護呼吸道)<br><img src="https://i.imgur.com/RZmNawX.png"></p><p>腸道是身體免疫系統的一大城牆，每天都必須面對各種外來物的入侵，又有大量共生菌叢在虎視眈眈，但同時必須盡可能從食物吸收多一些養分，不能發炎太旺盛。<br>身體該如何面對如此進退兩難的情況，是非常有趣的拉鋸戰，日後再來分享腸道黏膜的精妙之處。</p><h1 id="第二道防線"><a href="#第二道防線" class="headerlink" title="第二道防線"></a>第二道防線</h1><p>當外來抗原已經衝破免疫第一道防線，進入體內後，免疫系統相關的細胞就必須出馬消滅外來物質，包含發炎、補體系統等。</p><p>第二道防線的準則是：</p><center><b>快速區分，搶奪先機</b></center><p>辨認病原共通特徵！如此就能快速反應，即便不能完全扼殺，也可以阻止快速蔓延。</p><h2 id="敵我辨識"><a href="#敵我辨識" class="headerlink" title="敵我辨識"></a>敵我辨識</h2><p>敵我辨識乃免疫中最重要的一環，若不能正確區分自我&#x2F;非我的物質，那就會在錯誤的時機啟動免疫，不然會殃及自身細胞，常見的自體免疫疾病，如：重症肌無力(Myasthenia gravis)、多發性硬化症(Multiple Sclerosis)等皆由此起。</p><p>第二道防線的敵我辨識由PAMP&#x2F;PRR負責，將在先天免疫2進行介紹！</p><p>Claire2004(2022&#x2F;02&#x2F;10)</p>]]></content>
+        <content type="html"><![CDATA[<p>先天性免疫，又稱非特異性免疫，是免疫系統非專一性的防禦，雖然不具記憶性(後天性免疫有記憶細胞)，但能在面對常見的病原時，能產生快速的應對。(誠心感謝演化機制~)</p><h1 id="第一道防線-天然屏障"><a href="#第一道防線-天然屏障" class="headerlink" title="第一道防線(天然屏障)"></a>第一道防線(天然屏障)</h1><ol><li>物理性：表皮(無差別阻擋)、皮膜(以黏液阻滯病原體移動)</li><li>化學性：溶菌酶(可破壞細胞壁，唾液、眼淚中都有)、IgA二聚體(停在黏液中以中和抗原)、脂肪酸、乳酸、抗微生物肽(AMPs)</li><li>生物性：人體共生菌叢與外來菌競爭(隔山觀虎鬥?)</li></ol><h2 id="防禦素"><a href="#防禦素" class="headerlink" title="防禦素"></a>防禦素</h2><p>防禦素(defensin)屬AMP，具正電及兩親性(兼具親水、疏水)，由於細菌細胞膜表面帶負電(人體細胞膜電中性，與細菌有別)，防禦素因電性相吸黏附細菌細胞膜，進而插入細胞膜，影響或破壞細胞膜結構，達到殺滅細菌的目的。<br><img src="https://i.imgur.com/wZ2Doc3.jpg"></p><h2 id="黏膜"><a href="#黏膜" class="headerlink" title="黏膜"></a>黏膜</h2><p>黏膜和皮膚最大的差別是，皮膚較像是在外面不動的防護罩(角質層)，而黏膜傾向動態變化、具有通透性。<br>黏膜的細胞表面有充滿醣蛋白的黏液(合稱糖被glycocalyx)，身體各部位黏膜都有糖被分布，除了可以黏住病原(減緩移動速度等)，也能黏住IgA二聚體，讓抗體發揮中和功能。</p><p><img src="https://i.imgur.com/0NaEiC9.jpg"><br>TEM:小腸絨毛與糖被。小腸上皮的敵我攻防，糖被成了刀光劍影的戰場，AMPs和IgA dimer都在這裡發揮作用。</p><div class="note info flat"><p>因吞噬細胞無法到達糖被，且避免發炎導致上皮細胞死亡，防線破口，故IgA二聚體功能以中和為主。</p></div><h2 id="腸道MALT"><a href="#腸道MALT" class="headerlink" title="腸道MALT"></a>腸道MALT</h2><p>MALT，即mucosa-associated lymphoid tissue(黏膜相關淋巴組織)。</p><p>身體最多淋巴組織之處就位在腸道，腸道是身體免疫系統的一大城牆，每天都必須面對各種外來物的入侵，又有大量共生菌叢在虎視眈眈，但同時必須盡可能從食物吸收多一些養分，需要小發炎才能制衡腸道菌，卻不能發炎太旺盛。</p><p>M細胞，夾在小腸上皮間，因缺乏微絨毛，病原喜歡從這裡入侵，之後就被M細胞作胞吞轉運運到腸道內側的培氏斑中(這裡有大量DC、B cell、T cell)。<br>樹突細胞(DC)，可以胞吞M細胞送進來的抗原做抗原呈現，也能伸出「觸手」撈抗原做抗原呈現。<br><img src="https://i.imgur.com/6je5QbC.png"></p><div class="note danger flat"><p>M細胞和DC很像在做抽樣檢查，時刻監督有沒有人闖入，但為了不輕易吹響發炎的號角(上皮細胞受損，菌叢就侵門踏戶了)，DC、附近的巨噬細胞都較缺乏TLR受體，呈現拉扯性的平衡。</p></div><h1 id="第二道防線"><a href="#第二道防線" class="headerlink" title="第二道防線"></a>第二道防線</h1><p>當外來抗原藉機通過免疫第一道防線的屏障，免疫相關的細胞(如上皮細胞、白血球等)會釋出趨化素、介白素等，召募白血球，引起免疫相關蛋白質活化(如補體)，擴大免疫應對規模(如發炎)，並同時修補破口。</p><p>第二道防線的準則是：</p><center><b>快速區分，搶奪先機</b></center><p>辨認病原共通特徵！如此就能快速反應，即便不能完全扼殺，也可以阻止快速蔓延。</p><h2 id="敵我辨識"><a href="#敵我辨識" class="headerlink" title="敵我辨識"></a>敵我辨識</h2><p>敵我辨識乃免疫中最重要的一環，若不能正確區分自我&#x2F;非我的物質，那就會在錯誤的時機啟動免疫，殃及自身細胞，常見的自體免疫疾病，如：重症肌無力(Myasthenia gravis)、多發性硬化症(Multiple Sclerosis)等皆由此起。</p><p>第二道防線的敵我辨識由PAMP&#x2F;PRR負責，我會整理在下一篇。(看來是個大工程，要好好加油了:D)</p><p>Claire2004(2022&#x2F;02&#x2F;10)</p>]]></content>
       
       
       <categories>
@@ -49,11 +49,11 @@
       
         <tags>
             
+            <tag> Education </tag>
+            
             <tag> Immunology </tag>
             
             <tag> Biology </tag>
-            
-            <tag> Education </tag>
             
         </tags>
       
@@ -78,11 +78,11 @@
       
         <tags>
             
-            <tag> Education </tag>
-            
             <tag> Website </tag>
             
             <tag> Computer </tag>
+            
+            <tag> Education </tag>
             
         </tags>
       
