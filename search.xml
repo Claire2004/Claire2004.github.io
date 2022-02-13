@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>先天免疫3-發炎</title>
+      <link href="/2022/02/13/immunology-3/"/>
+      <url>/2022/02/13/immunology-3/</url>
+      
+        <content type="html"><![CDATA[<p>一般狀況提到的發炎反應皆是急性發炎，也是本篇主要要介紹的部分。<br>急性發炎，為了清除外來病原，啟動的局部性先天防禦機制，會有患部紅熱腫痛的現象，通常持續時間從數分鐘至數小時、數天不等。</p><div class="note info flat"><p>Q:那甚麼是慢性發炎？<br>A:急性發炎無法清除，為了不要繼續傷害自身細胞，轉為規模小的長期抗戰(轉向共存)。</p></div><h1 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h1><ol><li>局部反應，血管改變(TLR)<br>有開放性傷口、病原體入侵，內皮細胞、肥大細胞、駐留的巨噬細胞、補體先回應，釋出各種細胞激素(cytokine)，造成紅熱腫痛。</li></ol><div class="note info warning flat"><p>發炎訊號<br>Signal1: 活化PRRs，藉NF-κB路徑產生發炎相關分子<br>Signal2: DAMP(如尿酸結晶)活化發炎小體，GSDMD在PM上圍成孔，釋放IL-1β、IL-18等，讓周遭細胞發炎</p></div><p><img src="https://i.imgur.com/ZewuSne.jpg"></p><ol start="2"><li><p>吞噬細胞、APC受細胞激素召集，血小板、成纖維細胞抵達<br>2-1. 血小板凝血堵住缺口、修復傷口，和成纖維細胞圍困病原體(sticky)。<br>2-2. 吞噬細胞受地址素趨化，到附近時接上seletin變慢慢滾、接上ICAM後成功抵達，之後變形從內皮細胞穿出。<br><img src="https://i.imgur.com/McGTN4X.jpg"></p></li><li><p>吞噬病原、胞毒作用</p></li></ol><table><thead><tr><th>免疫細胞</th><th>特性與功能</th></tr></thead><tbody><tr><td>中性球</td><td>最快到達，吞噬或氧化(無差別攻擊)，自身細胞也陣亡</td></tr><tr><td>樹突細胞</td><td>吞噬、抗原呈現(重要)</td></tr><tr><td>巨噬細胞</td><td>早期：M1吞噬、釋放促炎細胞激素 (<strong>IL-1β</strong>、IL-6、TNF-α)；後期：M2釋放抗炎細胞激素 (IL-4、IL-10)、誘使纖維母細胞分化修補傷口</td></tr><tr><td>自然殺手</td><td>平常四處巡，發炎時會幫忙</td></tr></tbody></table><h2 id="紅熱腫痛原因"><a href="#紅熱腫痛原因" class="headerlink" title="紅熱腫痛原因"></a>紅熱腫痛原因</h2><table><thead><tr><th>感覺</th><th>激素</th><th>原因</th></tr></thead><tbody><tr><td>紅</td><td>PG、LT白三烯</td><td>血管平滑肌放鬆、微血管擴張</td></tr><tr><td>腫</td><td>TNF-α、組織胺</td><td>微血管通透性增加</td></tr><tr><td>熱</td><td></td><td>微血管充血</td></tr><tr><td>痛</td><td>PG</td><td>痛覺受器閾值降低(且組織腫脹)</td></tr></tbody></table><h1 id="抗發炎藥物"><a href="#抗發炎藥物" class="headerlink" title="抗發炎藥物"></a>抗發炎藥物</h1><p>分成非類固醇抗發炎藥(NSAIDs)、類固醇抗發炎藥。</p><p>非類固醇：水楊酸、阿斯匹靈等。<br>機轉：抑制COX-2，使花生四烯酸不能代謝成前列腺素、前列環素及血栓素，阻斷發炎反應。</p><table><thead><tr><th>COX</th><th>功能</th></tr></thead><tbody><tr><td>COX-1</td><td>調節正常細胞的功能，如保護胃壁、腎臟功能等</td></tr><tr><td>COX-2</td><td>發炎時產生，使花生四烯酸代謝成…</td></tr></tbody></table><div class="note info flat"><p>阿斯匹靈同時抑制COX-1、COX-2，因此可能產生胃潰瘍等。</p></div><p>Claire2004(2022&#x2F;02&#x2F;10)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Immunology </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Education </tag>
+            
+            <tag> Immunology </tag>
+            
+            <tag> Biology </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>先天免疫2-PAMPs/PRRs</title>
       <link href="/2022/02/10/immunology-2/"/>
       <url>/2022/02/10/immunology-2/</url>
